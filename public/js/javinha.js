@@ -1,0 +1,9 @@
+$("#requisitarLogin").click(function(){
+	requisitarArquivo('login.blade.php');	
+});
+$('#inserirAlunos').click(function(){
+	requisitarArquivo('adicionarAluno.blade.php');
+});
+$('#adicionarC').click(function(){
+	requisitarArquivo('adicionarCurso.blade.php');
+});
